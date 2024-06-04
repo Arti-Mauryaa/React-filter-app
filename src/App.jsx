@@ -33,7 +33,7 @@ function App() {
 
     <div className="heading_style">
     <h1>Order Your Favourite dish</h1>
-      <button className='btn btn-warning mx-3' onClick={()=>filterItem("lunch")}>Lucnch</button>
+      <button className='btn btn-warning mx-3' onClick={()=>filterItem("lunch")}>Lunch</button>
       <button className='btn btn-warning mx-3' onClick={()=>filterItem("breakfast")}>Breakfast</button>
       <button className='btn btn-warning mx-3' onClick={()=>filterItem("dinner")}>Dinner</button>
       <button className='btn btn-warning mx-3' onClick={()=>filterItem("evening")}>Evening</button>
